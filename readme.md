@@ -16,6 +16,7 @@ ___
 ___
 
 ## Directory
+<pre>
 root
 ├── dist
 │   ├── css
@@ -34,3 +35,4 @@ root
         │   ├── project
         │   └── utility
         └── style.scss
+</pre>
