@@ -5,14 +5,30 @@
     npm install
 ___
 
+## Plugins
+- babel
+- browser-sync
+- autoprefixer
+- clean-css
+- imagemin
+- notify
+- plumber
+- rename
+- sass
+- sass-glob-use-forward
+- sourcemaps
+- uglity
+___
+
 ## Usage
-### develop mode
-    npx gulp
-- Dart Sass compiler
-- Imagemin
-- Babel
-- Browser sync
-- watch
+    gulp
+- コンパイル、画像圧縮、JS圧縮、ファイル監視
+
+    gulp image
+- 画像圧縮
+
+    gulp js
+- JS圧縮
 ___
 
 ## Directory

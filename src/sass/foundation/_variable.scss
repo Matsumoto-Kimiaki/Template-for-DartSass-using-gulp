@@ -1,10 +1,10 @@
 //レスポンシブ
 $breakpoints: (
-  //iPhone用
+  //スマートフォン
   "sp": "(min-width: 340px)",
-  //iPad用
+  //タブレット
   "tab": "(min-width: 600px)",
-  //PC用
+  //パソコン
   "pc": "(min-width: 1025px)"
 );
 
