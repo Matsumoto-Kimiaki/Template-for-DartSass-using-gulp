@@ -83,9 +83,8 @@ const jsBabel = () => {
         presets: ["@babel/preset-env"], // gulp-babelでトランスパイル
       })
     )
-    .pipe(dest(destPath.js))
     .pipe(uglify()) // js圧縮
-    .pipe(rename({ extname: ".min.js" }))
+    .pipe(rename({ suffix: ".min"}))
     .pipe(dest(destPath.js));
 };
 
@@ -112,6 +111,7 @@ const imgImagemin = () => {
         }
       )
     )
+    .pipe(rename({ suffix: ".min"}))
     .pipe(dest(destPath.img));
 };
 
