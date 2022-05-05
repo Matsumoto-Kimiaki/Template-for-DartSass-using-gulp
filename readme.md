@@ -2,7 +2,7 @@
 # Template for web-coding
 
 ## Install
-    npm install
+    'npm install'
 ___
 
 ## Plugins
@@ -21,13 +21,13 @@ ___
 ___
 
 ## Usage
-    gulp
+    'gulp'
 - コンパイル、画像圧縮、JS圧縮、ファイル監視
 
-    gulp image
+    'gulp image'
 - 画像圧縮
 
-    gulp js
+    'gulp js'
 - JS圧縮
 ___
 
